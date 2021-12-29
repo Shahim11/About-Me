@@ -1,0 +1,94 @@
+body {
+    background-image: url(./img/background.jpg);
+    overflow-x: hidden;
+    background-size: cover;
+    /* background: rgba(24, 24, 27, 0.87); */
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: cadetblue;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header {
+    width: 100vw;
+    height: 50vh;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 785px;
+    top: 20px;
+    border: 5px solid white;
+}
+
+.name {
+    margin-top: -120px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.title {
+    background-color: gray;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100;
+    margin-left: -45px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px 50px;
+}
+
+.list {
+    margin-left: -12px;
+}
+
+.column {
+    margin-left: -12px;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.line {
+    color: white;
+}
